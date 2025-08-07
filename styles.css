@@ -6,6 +6,9 @@ body {
     border: 5px solid green;
     border-radius: 10px;
     height: 400px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+     width: 300px;
+     animation: sombraAnimada 3s infinite;
 }
 
 .link-button {
@@ -16,4 +19,15 @@ body {
     padding: 5px;
     border-radius: 5px;
     box-shadow: 2px 3px #888888;
+}
+@keyframes sombraAniumada {
+    0% { 
+        box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    }
+    50% { 
+        box-shadow: 5px 5px 15px rgba(0,0,0,0.8);
+    }   
+    100% { 
+        box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    }
 }
