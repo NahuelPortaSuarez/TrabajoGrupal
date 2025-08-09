@@ -1,9 +1,11 @@
 body {
     background-color: lightgreen;
 }
-
-.image{
+.contenedor {
     text-align: center;
+}
+.image{
+    display:block;
     border: 5px solid green;
     border-radius: 10px;
     height: 400px;
@@ -12,7 +14,7 @@ body {
 }
 #parrafo {
     text-align: center;
-    size: 2px;
+    size: 12px;
 
 }
 .link-button {
