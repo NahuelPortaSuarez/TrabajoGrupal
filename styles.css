@@ -3,13 +3,18 @@ body {
 }
 
 .image{
+    text-align: center;
     border: 5px solid green;
     border-radius: 10px;
     height: 400px;
     width: 300px;
     animation: sombraAnimada 3s infinite;
 }
+#parrafo {
+    text-align: center;
+    size: 2px;
 
+}
 .link-button {
     text-decoration: none;
     color: black;
