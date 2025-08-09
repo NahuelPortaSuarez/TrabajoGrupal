@@ -3,9 +3,13 @@ body {
 }
 .contenedor {
     text-align: center;
+    background-color: black;
+    color: white;
+    margin: 0 auto;
 }
 .image{
     display:block;
+    margin: 0 auto;
     border: 5px solid green;
     border-radius: 10px;
     height: 400px;
@@ -13,10 +17,8 @@ body {
     animation: sombraAnimada 3s infinite;
 }
 #parrafo {
-    text-align: center;
-    size: 12px;
-    background-color: black;
-    color: white;
+    font-size: 12px;
+    
 
 }
 .link-button {
@@ -44,7 +46,13 @@ body {
         transform: scale(1)
     }
 }
+
 h1 {
     text-align: center;
-
+    border: 5px solid black;
 }
+#page2 h1 {
+    text-align: center;
+    border: 5px solid black;
+}
+
